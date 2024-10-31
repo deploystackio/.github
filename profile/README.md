@@ -1,9 +1,9 @@
-# Welcome to Deploy.my
+# Welcome to DeployStack
 
-[Deploy.my](https://deploy.my) is an open-source organization that simplifies the deployment process for containerized applications. We provide tools and resources that translate docker-compose.yml files into cloud-agnostic Infrastructure as Code (IaC) templates. Our mission is to empower developers and open-source enthusiasts by offering flexible, scalable, and one-click deployment solutions.
+[DeployStack](https://deploystack.io) is an open-source organization that simplifies the deployment process for containerized applications. We provide tools and resources that translate docker-compose.yml files into cloud-agnostic Infrastructure as Code (IaC) templates. Our mission is to empower developers and open-source enthusiasts by offering flexible, scalable, and one-click deployment solutions.
 
 <p align="center">
-  <img src="/profile/deploymy-logo-transparent-300x326.png" width="300" height="326" alt="Deploy.my Logo">
+  <img src="/profile/deploystack-logo-transparent-300x326.png" width="300" height="326" alt="DeployStack Logo">
 </p>
 
 
@@ -11,20 +11,20 @@
 
 We maintain several key repositories that form the backbone of our ecosystem:
 
-1. **[Docker to IaC](https://github.com/deploymy/docker-to-iac):** The core component of Deploy.my, this Node.js module converts docker-compose.yml into templates for various cloud providers.
+1. **[Docker to IaC](https://github.com/deploystackio/docker-to-iac):** The core component of DeployStack, this Node.js module converts docker-compose.yml into templates for various cloud providers.
 
-2. **[Documentation](https://github.com/deploymy/documentation):** Guides and resources to help you understand and use the Deploy.my ecosystem effectively.
+2. **[Documentation](https://github.com/deploystackio/documentation):** Guides and resources to help you understand and use the DeployStack ecosystem effectively.
 
-3. **[Deploy Templates](https://github.com/deploymy/deploy-templates):** A collection of generated Infrastructure as Code (IaC) templates, ready to use for various cloud platforms.
+3. **[Deploy Templates](https://github.com/deploystackio/deploy-templates):** A collection of generated Infrastructure as Code (IaC) templates, ready to use for various cloud platforms.
 
 ## Get Started 🍿
 
-- **Try it out:** Visit our [Website deploy.my](https://deploy.my) to explore our app catalog or submit your Open Source project.
-- **Learn more:** Check out our [Documentation](https://docs.deploy.my) to read more about our tools and capabilities.
+- **Try it out:** Visit our [Website deploystack.io](https://deploystack.io) to explore our app catalog or submit your Open Source project.
+- **Learn more:** Check out our [Documentation](https://docs.deploystack.io) to read more about our tools and capabilities.
 
 ## Contributing
 
-We are a community-driven project that welcomes contributions from developers and cloud enthusiasts worldwide. Whether you want to add features, fix bugs, or improve our documentation, your participation strengthens the Deploy.my ecosystem.
+We are a community-driven project that welcomes contributions from developers and cloud enthusiasts worldwide. Whether you want to add features, fix bugs, or improve our documentation, your participation strengthens the DeployStack ecosystem.
 
 ### How You Can Contribute 💻
 
@@ -40,4 +40,4 @@ Join us in our mission to make cloud deployments accessible to everyone. Your ex
 
 Happy Deploying!
 
-— The Deploy.my Team
+— The DeployStack Team
