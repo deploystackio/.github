@@ -20,7 +20,7 @@ We maintain several key repositories that form the backbone of our ecosystem:
 ## Get Started 🍿
 
 - **Try it out:** Visit our [Website deploystack.io](https://deploystack.io) to explore our app catalog or submit your Open Source project.
-- **Learn more:** Check out our [Documentation](https://docs.deploystack.io) to read more about our tools and capabilities.
+- **Learn more:** Check out our [Documentation](https://deploystack.io/docs) to read more about our tools and capabilities.
 
 ## Contributing
 
