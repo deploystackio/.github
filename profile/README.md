@@ -4,15 +4,17 @@
 
 [DeployStack](https://deploystack.io) is an open-source organization that simplifies the deployment process for containerized applications. We provide tools and resources that translate docker-compose.yml files and docker run command into cloud-agnostic Infrastructure as Code (IaC) templates. Our mission is to empower developers and open-source enthusiasts by offering flexible, scalable, and one-click deployment solutions.
 
-## Our Project 🚀
+## Repositories ⚡
 
 We maintain several key repositories that form the backbone of our ecosystem:
 
-1. **[Docker to IaC](https://github.com/deploystackio/docker-to-iac):** The core component of DeployStack, this Node.js module converts docker-compose.yml and docker run command into templates for various cloud providers.
+1. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> Docker to IaC](https://github.com/deploystackio/docker-to-iac):** converts docker-compose and docker run command into Infrastructure as Code templates for various cloud providers.
 
-2. **[Documentation](https://github.com/deploystackio/documentation):** Guides and resources to help you understand and use the DeployStack ecosystem effectively.
+2. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> Deploy Templates](https://github.com/deploystackio/deploy-templates):** A collection of generated Infrastructure as Code (IaC) templates, ready to use for various cloud platforms.
 
-3. **[Deploy Templates](https://github.com/deploystackio/deploy-templates):** A collection of generated Infrastructure as Code (IaC) templates, ready to use for various cloud platforms.
+3. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> Documentation](https://github.com/deploystackio/documentation):** Guides and resources to help you understand the DeployStack ecosystem effectively.
+
+
 
 ## Get Started 🍿
 
