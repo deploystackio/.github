@@ -1,11 +1,8 @@
-# Welcome to DeployStack
-
-[DeployStack](https://deploystack.io) is an open-source organization that simplifies the deployment process for containerized applications. We provide tools and resources that translate docker-compose.yml files and docker run command into cloud-agnostic Infrastructure as Code (IaC) templates. Our mission is to empower developers and open-source enthusiasts by offering flexible, scalable, and one-click deployment solutions.
-
 <p align="center">
-  <img src="/profile/deploystack-logo-transparent-300x326.png" width="300" height="326" alt="DeployStack Logo">
+  <img src="/profile/deploystack-github-banner.webp" alt="DeployStack Mission">
 </p>
 
+[DeployStack](https://deploystack.io) is an open-source organization that simplifies the deployment process for containerized applications. We provide tools and resources that translate docker-compose.yml files and docker run command into cloud-agnostic Infrastructure as Code (IaC) templates. Our mission is to empower developers and open-source enthusiasts by offering flexible, scalable, and one-click deployment solutions.
 
 ## Our Project 🚀
 
