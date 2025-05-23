@@ -2,40 +2,59 @@
   <img src="/profile/deploystack-github-banner.webp" alt="DeployStack Mission">
 </p>
 
-[DeployStack](https://deploystack.io) is an open-source organization that simplifies the deployment process for containerized applications. We provide tools and resources that translate docker-compose.yml files and docker run command into cloud-agnostic Infrastructure as Code (IaC) templates. Our mission is to empower developers and open-source enthusiasts by offering flexible, scalable, and one-click deployment solutions.
+[DeployStack](https://deploystack.io) is an open-source organization that makes deploying MCP (Model Context Protocol) servers ridiculously easy. We eliminate the technical complexity that keeps powerful AI tools locked away from developers by providing one-click deployment solutions and automated credential management.
 
-## Repositories ⚡
+## The Problem We Solve 🎯
 
-We maintain several key repositories that form the backbone of our ecosystem:
+Setting up MCP servers is a technical nightmare. Developers face complex configurations, authentication headaches, and deployment barriers that prevent them from using powerful AI tools. DeployStack removes these obstacles completely.
 
-1. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> Docker to IaC](https://github.com/deploystackio/docker-to-iac):** converts docker-compose and docker run command into Infrastructure as Code templates for various cloud providers.
+## Our Solution ⚡
 
-2. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> Deploy Templates](https://github.com/deploystackio/deploy-templates):** A collection of generated Infrastructure as Code (IaC) templates, ready to use for various cloud platforms.
+**One-Click MCP Deployment:** Browse our curated catalog of MCP servers at [deploystack.io/mcp](https://deploystack.io/mcp), click deploy, and your server is running on your preferred cloud provider within minutes.
 
-3. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> Documentation](https://github.com/deploystackio/documentation):** Guides and resources to help you understand the DeployStack ecosystem effectively.
+**Key Features:**
+- 🚀 **Zero Configuration Required** - Deploy any MCP server with one click
+- 🔐 **Automated Credential Management** - We handle authentication and secrets
+- 🌐 **Multi-Cloud Support** - Deploy to Render, Fly.io, AWS, and more
+- 📦 **Curated MCP Catalog** - Trusted, tested MCP servers ready to deploy
+- 🛠️ **Open-Source CI/CD** - Full platform available for self-hosting
 
+## Repositories 🔧
 
+We maintain several key repositories that power the MCP deployment ecosystem:
+
+1. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> deploystack](https://github.com/deploystackio/deploystack):** Open-source CI/CD platform for MCP servers
+
+2. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> awesome-mcp-server](https://github.com/deploystackio/awesome-mcp-server):** Curated collection of MCP servers that feeds our deployment catalog
+
+3. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> Docker to IaC](https://github.com/deploystackio/docker-to-iac):** Core translation engine that converts Docker configurations into Infrastructure as Code templates for various cloud providers
+
+4. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> Deploy Templates](https://github.com/deploystackio/deploy-templates):** Generated Infrastructure as Code (IaC) templates, ready to use for various cloud platforms
+
+5. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> Documentation](https://github.com/deploystackio/documentation):** Comprehensive guides for the DeployStack ecosystem
 
 ## Get Started 🍿
 
-- **Try it out:** Visit our [Website deploystack.io](https://deploystack.io) to explore our app catalog or submit your Open Source project.
-- **Learn more:** Check out our [Documentation](https://deploystack.io/docs) to read more about our tools and capabilities.
+- **Deploy an MCP Server:** Visit [deploystack.io/mcp](https://deploystack.io/mcp) to browse and deploy MCP servers with one click
+- **Submit Your MCP Server:** Add your MCP server to our [awesome-mcp-server](https://github.com/deploystackio/awesome-mcp-server) collection
+- **Learn More:** Check out our [Documentation](https://deploystack.io/docs) to understand the full capabilities
 
-## Contributing
+## Contributing 💻
 
-We are a community-driven project that welcomes contributions from developers and cloud enthusiasts worldwide. Whether you want to add features, fix bugs, or improve our documentation, your participation strengthens the DeployStack ecosystem.
+We are a community-driven project that welcomes contributions from AI developers, MCP enthusiasts, and cloud engineers worldwide. Whether you want to add MCP servers, improve our deployment platform, or enhance documentation, your participation strengthens the ecosystem.
 
-### How You Can Contribute 💻
+### How You Can Contribute
 
-- **Reporting Issues:** Found a bug or have a feature request? Please open an issue in the relevant repository.
-- **Code Contributions:** Feel free to fork our repositories and make pull requests. Check out our contribution guidelines for each project to get started.
-- **Documentation:** Help us maintain and enhance our documentation for better clarity and usability.
+- **Add MCP Servers:** Submit your MCP servers to our [awesome-mcp-server](https://github.com/deploystackio/awesome-mcp-server) repository
+- **Platform Development:** Contribute to our [deploystack](https://github.com/deploystackio/deploystack) CI/CD platform
+- **Bug Reports & Features:** Open issues in the relevant repositories
+- **Documentation:** Help us improve guides and tutorials for better developer experience
 
 We are grateful for any and all contributions you can make!
 
 ---
 
-Join us in our mission to make cloud deployments accessible to everyone. Your expertise and input help ensure an inclusive, powerful toolset for developers anywhere.
+**Our Mission:** Make AI tools accessible to everyone by removing deployment complexity. No more spending hours configuring MCP servers - just click deploy and start building.
 
 Happy Deploying!
 
