@@ -2,60 +2,99 @@
   <img src="/profile/deploystack-github-banner.webp" alt="DeployStack Mission">
 </p>
 
-[DeployStack](https://deploystack.io) is an open-source organization that makes deploying MCP (Model Context Protocol) servers ridiculously easy. We eliminate the technical complexity that keeps powerful AI tools locked away from developers by providing one-click deployment solutions and automated credential management.
+[DeployStack](https://deploystack.io) is an open-source Enterprise Control Plane for the Model Context Protocol (MCP) ecosystem. We provide secure, centralized management of AI agent tools, eliminating credential sprawl and enabling enterprise governance over the entire MCP landscape.
 
 ## The Problem We Solve 🎯
 
-Setting up MCP servers is a technical nightmare. Developers face complex configurations, authentication headaches, and deployment barriers that prevent them from using powerful AI tools. DeployStack removes these obstacles completely.
+Enterprise MCP adoption faces critical security and governance blind spots. Developers copy-paste API keys into local files, organizations have zero visibility into AI tool usage, and complex configurations create onboarding nightmares. DeployStack transforms MCP into an enterprise-ready platform with centralized security and seamless developer experience.
 
 ## Our Solution ⚡
 
-**One-Click MCP Deployment:** Browse our curated catalog of MCP servers at [deploystack.io/mcp](https://deploystack.io/mcp), click deploy, and your server is running on your preferred cloud provider within minutes.
+**Enterprise Control Plane:** Think of us as the Identity and Access Management (IAM) layer for AI agents and tools. Administrators manage all MCP servers and credentials in our cloud platform, while developers get instant access through our secure local gateway.
 
 **Key Features:**
-- 🚀 **Zero Configuration Required** - Deploy any MCP server with one click
-- 🔐 **Automated Credential Management** - We handle authentication and secrets
-- 🌐 **Multi-Cloud Support** - Deploy to Render, Fly.io, AWS, and more
-- 📦 **Curated MCP Catalog** - Trusted, tested MCP servers ready to deploy
-- 🛠️ **Open-Source CI/CD** - Full platform available for self-hosting
+- 🔐 **Zero Credential Exposure** - Developers never touch API keys or tokens
+- 🏢 **Enterprise Governance** - Complete visibility and control over AI tool usage
+- ⚡ **Instant Developer Onboarding** - One login gives access to all authorized tools
+- 🔒 **Zero-Trust Architecture** - All requests proxied through secure gateway
+- 📊 **Audit & Compliance** - Full logging and analytics for your requirements (comming soon)
+- 🌐 **Team-Based Access Control** - Granular permissions by team and role
+
+## Architecture Overview 🏗️
+
+**Control Plane (`cloud.deploystack.io`):** Centralized web platform for administrators to manage teams, MCP servers, credentials, and access policies.
+
+**Data Plane (DeployStack Gateway):** Secure local application that runs on developer machines, providing a single endpoint for all MCP tools while enforcing enterprise policies.
+
+```
+VS Code/Cursor → DeployStack Gateway (localhost:9095/sse) → Persistent MCP Processes (stdio) → External APIs
+```
 
 ## Repositories 🔧
 
-We maintain several key repositories that power the MCP deployment ecosystem:
+Our open-source platform consists of three core services:
 
-1. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> deploystack](https://github.com/deploystackio/deploystack):** Open-source CI/CD platform for MCP servers
+1. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> deploystack](https://github.com/deploystackio/deploystack):** Complete Enterprise Control Plane platform with backend API, frontend dashboard, and secure gateway
 
-2. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> awesome-mcp-server](https://github.com/deploystackio/awesome-mcp-server):** Curated collection of MCP servers that feeds our deployment catalog
+2. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> awesome-mcp-server](https://github.com/deploystackio/awesome-mcp-server):** Curated collection of enterprise-ready MCP servers
 
-3. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> Docker to IaC](https://github.com/deploystackio/docker-to-iac):** Core translation engine that converts Docker configurations into Infrastructure as Code templates for various cloud providers
+3. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> Documentation](https://github.com/deploystackio/documentation):** Comprehensive guides for enterprise MCP deployment and governance
 
-4. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> Deploy Templates](https://github.com/deploystackio/deploy-templates):** Generated Infrastructure as Code (IaC) templates, ready to use for various cloud platforms
+## Get Started 🚀
 
-5. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> Documentation](https://github.com/deploystackio/documentation):** Comprehensive guides for the DeployStack ecosystem
+- **For Organizations:** Sign up at [cloud.deploystack.io](https://cloud.deploystack.io) to create your free account
+- **For Developers:** Install the DeployStack Gateway and connect to your team's authorized MCP tools
+- **Documentation:** Visit [docs.deploystack.io](https://docs.deploystack.io) for complete setup guides
 
-## Get Started 🍿
+### Quick Start for Developers
 
-- **Deploy an MCP Server:** Visit [deploystack.io/mcp](https://deploystack.io/mcp) to browse and deploy MCP servers with one click
-- **Submit Your MCP Server:** Add your MCP server to our [awesome-mcp-server](https://github.com/deploystackio/awesome-mcp-server) collection
-- **Learn More:** Check out our [Documentation](https://deploystack.io/docs) to understand the full capabilities
+```bash
+# Install the gateway
+npm install -g @deploystack/gateway
+
+# Login to your organization
+deploystack login
+
+# Start the gateway with all your team's tools
+deploystack start
+```
+
+Configure VS Code to use the single gateway endpoint:
+```json
+{
+  "mcpServers": {
+    "deploystack": {
+      "url": "http://localhost:9095/sse",
+      "name": "DeployStack Gateway"
+    }
+  }
+}
+```
 
 ## Contributing 💻
 
-We are a community-driven project that welcomes contributions from AI developers, MCP enthusiasts, and cloud engineers worldwide. Whether you want to add MCP servers, improve our deployment platform, or enhance documentation, your participation strengthens the ecosystem.
+We're building the future of enterprise AI infrastructure. Whether you're a security engineer, DevOps specialist, or AI developer, your contributions help make AI tools secure and accessible for organizations worldwide.
 
 ### How You Can Contribute
 
-- **Add MCP Servers:** Submit your MCP servers to our [awesome-mcp-server](https://github.com/deploystackio/awesome-mcp-server) repository
-- **Platform Development:** Contribute to our [deploystack](https://github.com/deploystackio/deploystack) CI/CD platform
-- **Bug Reports & Features:** Open issues in the relevant repositories
-- **Documentation:** Help us improve guides and tutorials for better developer experience
+- **Platform Development:** Enhance our [Control Plane services](https://github.com/deploystackio/deploystack) (Backend API, Frontend Dashboard, Gateway)
+- **Security Features:** Help build enterprise-grade security and compliance features
+- **MCP Server Integration:** Add support for new MCP servers in our catalog
+- **Documentation:** Improve guides for enterprise deployment and governance
+- **Bug Reports & Features:** Open issues to help us improve the platform
 
-We are grateful for any and all contributions you can make!
+### Areas of Focus
+
+- **Gateway Development:** SSE transport, process management, and security features
+- **Enterprise Features:** Audit logging, SSO integration, and advanced analytics
+- **MCP Ecosystem:** Integration with new MCP servers and AI agent frameworks
 
 ---
 
-**Our Mission:** Make AI tools accessible to everyone by removing deployment complexity. No more spending hours configuring MCP servers - just click deploy and start building.
+**Our Mission:** Secure AI tools. Empower developers. Control everything. We're transforming how enterprises manage their AI infrastructure by providing the first enterprise-grade control plane for the MCP ecosystem.
 
-Happy Deploying!
+**Market Position:** #1 Enterprise Control Plane for MCP
+
+Happy Building!
 
 — The DeployStack Team
