@@ -1,6 +1,10 @@
-<p align="center">
-  <img src="/profile/deploystack-github-banner.webp" alt="DeployStack Mission">
-</p>
+<a href="https://deploystack.io">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="/profile/deploystack-github-banner-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="/profile/deploystack-github-banner-white.png">
+    <img alt="DeployStack" src="/profile/deploystack-github-banner-white.png">
+  </picture>
+</a>
 
 [DeployStack](https://deploystack.io) is an open-source Enterprise Control Plane for the Model Context Protocol (MCP) ecosystem. We provide secure, centralized management of AI agent tools, eliminating credential sprawl and enabling enterprise governance over the entire MCP landscape.
 
