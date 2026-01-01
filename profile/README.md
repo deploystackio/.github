@@ -40,9 +40,7 @@ Our open-source platform consists of three core services:
 
 1. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> deploystack](https://github.com/deploystackio/deploystack):** Complete Enterprise Control Plane platform with backend API, frontend dashboard, and secure gateway
 
-2. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> awesome-mcp-server](https://github.com/deploystackio/awesome-mcp-server):** Curated collection of enterprise-ready MCP servers
-
-3. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> Documentation](https://github.com/deploystackio/documentation):** Comprehensive guides for enterprise MCP deployment and governance
+2. **[<img src="https://github.githubassets.com/favicons/favicon.png" width="15"> Documentation](https://github.com/deploystackio/documentation):** Comprehensive guides for enterprise MCP deployment and governance
 
 ## Get Started 🚀
 
